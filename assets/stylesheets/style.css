@@ -25,8 +25,8 @@
 
 /* == Colors */
 
-.color-sky-blue {
-	color: #204a87;
+.color-sellout-pink {
+  background-color: #DB2766;
 }
 
 
@@ -72,7 +72,7 @@ body {
 }
 
 .footer i {
-  background-color: #555753;
+  background-color: #666666;
   font-size: 25px;
   width: 38px;
   height: 38px;
@@ -102,4 +102,29 @@ body {
 .circled-icon a {
   color: inherit;
   text-decoration: none;
+}
+
+.me-section {
+  background-color: #A1C22D;
+}
+
+.service-detail {
+  background-color: #eee;
+  padding: 1em;
+  border-radius: 6px;
+}
+
+.service-detail a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.service-detail i {
+  line-height: 200px;
+  font-size: 100px;
+  vertical-align: middle;
+}
+
+.service-detail:hover {
+  background-color: #ccc;
 }
