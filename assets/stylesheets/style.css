@@ -1,0 +1,180 @@
+/* == General */
+
+.text-justify {
+  -moz-hyphens: auto;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+.spacer-20 {
+  margin-top: 20px;
+}
+
+.spacer-40 {
+  margin-top: 40px;
+}
+
+.spacer-80 {
+  margin-top: 80px;
+}
+
+.debug {
+  border: solid 1px red;
+}
+
+
+/* == Colors */
+
+.color-sky-blue {
+	color: #204a87;
+}
+
+.color-scarlet-red {
+	color: #a40000;
+}
+
+.color-chameleon {
+	color: #4e9a06;
+}
+
+.color-orange {
+	color: #ce5c00;
+}
+
+
+/* == Fonts */
+
+@font-face {
+  font-family: "Linux Biolinum";
+  src: url('/assets/fonts/LinBiolinum_R.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Linux Biolinum";
+  font-style: italic;
+  src: url('/assets/fonts/LinBiolinum_RI.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Linux Biolinum";
+  font-weight: bold;
+  src: url('/assets/fonts/LinBiolinum_RB.woff') format('woff');
+}
+
+body {
+  font-family: 'Linux Biolinum';
+  font-size: 16px;
+}
+
+
+/* == Sections */
+
+
+.footer {
+  background-color: #2e3436;
+  color: #eeeeec;
+  margin-top : 2em;
+  padding-bottom : 2em;
+  padding-top : 2em;
+}
+
+.footer h1 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.footer i {
+  background-color: #555753;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer a {
+  color: #eeeeec;
+}
+
+.circled-icon i {
+  background-color: #eeeeec;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 2px;
+  vertical-align: middle;
+}
+
+.circled-icon a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.service-block {
+  background-color: #eee;
+  padding: 1em;
+  height: 400px;
+  border-radius: 6px;
+}
+
+.service-block a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.service-block i {
+  line-height: 200px;
+  font-size: 100px;
+  vertical-align: middle;
+}
+
+.service-block:hover {
+  background-color: #ccc;
+}
+
+.fa-illustration {
+  line-height: 100px;
+  font-size: 100px;
+  vertical-align: middle;
+}
+
+.icon {
+  font-size: 50px;
+  text-align: center;
+  color: #848484;
+}
+
+.partner-logo {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  margin: 2px;
+  border-radius: 6px;
+  line-height: 100px;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.partner-logo:hover {
+  border: 1px solid #eee;
+}
+
+.partner-logo img {
+  width: 100px;
+}
+
+.partner-logo div {
+  line-height: 12px;
+}
+
+.partner-logo a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,38 @@
+<footer class="footer">
+  <div class="container-fluid">
+    <small>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            {{site.contact.address}}
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <i class="fa fa-phone"></i>
+            {{site.contact.phone}}
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <a href="mailto:{{site.contact.email}}">
+              <i class="fa fa-envelope"></i>
+              {{site.contact.email}}
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center">
+            Virginie Albiez&nbsp;&copy;&nbsp;2011 - 2015.
+            Site généré le {{ site.time | date: "%-d %b %Y" }} à {{ site.time | date: "%H:%M" }}.
+          </p>
+        </div>
+      </div>
+    </div>
+    </small>
+  </div>
+</footer>
