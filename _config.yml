@@ -16,10 +16,10 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://virginiealbiez.github.io/"
 
-contact:
-  email: virginie.albiez@poloper.org
-  phone: +33 6 51 93 55 66
-  address: "16 Chemin du fort de Chaudanne, 25000 Besançon"
-
 # Build settings
 markdown: kramdown
+
+collections:
+  services:
+    output: true
+    permalink: /services/:path/
