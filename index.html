@@ -4,13 +4,13 @@ layout: default
 <div class="container">
   <div class="jumbotron">
     <div class="row">
-      <div class="col-md-3 text-center">
+      <div class="col-md-4 text-center">
         <img alt='{{site.data.contact.photo.name}}' src='{{site.data.contact.photo.url}}' width="300">
       </div>
-      <div class="col-md-8 text-center">
+      <div class="col-md-7 text-center">
         <h1>Virginie Albiez</h1>
         {% for service in site.services %}
-          <p>{{service.title}}</p>
+          <p><i class="fa {{service.icon}}"></i> {{service.title}}</p>
         {% endfor %}
         <p><a href="mailto:{{site.data.contact.email}}" class="btn btn-primary btn-lg">Contactez moi</a></p>
       </div>
