@@ -1,0 +1,3 @@
+- Coaching de groupe
+- Ateliers, programmes individuels
+- Conférences en entreprises
